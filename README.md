@@ -66,8 +66,7 @@ The original columns were:
 [29] `Dispositions/Exclusions INTERNAL USE, NOT FOR ANALYSIS`         
 [30] `Intended use of force (Developing)`                             
 [31] `Supporting document link`                                       
-[32] `Foreknowledge of mental illness? INTERNAL USE, NOT FOR ANALYSIS`
-
+[32] `Foreknowledge of mental illness? INTERNAL USE, NOT FOR ANALYSIS` 
 [33] `V33`                                                            
 [34] `V34`                                                            
 [35] `Unique ID formula`                                              
