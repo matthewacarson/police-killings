@@ -1,7 +1,8 @@
 # police-killings
 
 # fatal_encounters_renamed_cols.csv underwent the following limited cleaning in R (code below):
-`fatal_encounters_clean <- 
+```{r}
+fatal_encounters_clean <- 
   fatal_encounters %>%  
   select(  
     # select columns to keep and rename    
@@ -28,7 +29,8 @@
       'intended_use_of_force' = 'Intended use of force (Developing)',
       'mental_illness' = 'Foreknowledge of mental illness? INTERNAL USE, NOT FOR ANALYSIS'
        )
-    )`
+    )
+```
 
 The original columns were:
 
