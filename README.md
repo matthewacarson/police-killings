@@ -2,12 +2,19 @@
 
 # fatal_encounters_renamed_cols.csv underwent the following limited cleaning in R (code below):
 fatal_encounters_clean <- 
+
   fatal_encounters %>% 
+  
   select(
+  
     # select columns to keep and rename
+    
     c(`unique_id` = `Unique ID`,
+    
       `age` = `Age`,
+      
       `gender` = `Gender`,
+      
       `race` = `Race`,
       `race_w_imputations` = `Race with imputations`,
       `imputation_probability` = `Imputation probability`,
