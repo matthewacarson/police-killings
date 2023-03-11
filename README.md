@@ -31,6 +31,7 @@ fatal_encounters_clean <-
     )
 
 The original columns were:
+
  [1] "Unique ID"                                                      
  [2] "Name"                                                           
  [3] "Age"                                                            
