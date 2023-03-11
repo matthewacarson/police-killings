@@ -1,6 +1,7 @@
 # police-killings
+#### source: https://fatalencounters.org/spreadsheets/
 
-# fatal_encounters_renamed_cols.csv underwent the following limited cleaning in R (code below):
+fatal_encounters_renamed_cols.csv underwent the following limited cleaning in R (code below):
 ```{r}
 fatal_encounters_clean <- 
   fatal_encounters %>%  
